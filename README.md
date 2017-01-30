@@ -6,7 +6,7 @@ This is still a work in progress.
 ### How to use
 
 `
-rxcontainer
+rxcont
 `
 
 General template for a react container, with access to state and that dispatches actions.
