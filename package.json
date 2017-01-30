@@ -1,0 +1,22 @@
+{
+  "name": "react-redux-snips",
+  "version": "0.1",
+  "description": "React and redux snippets.",
+  "engines": {
+    "atom": "*"
+  },
+  "author": {
+    "name": "Vasco Silva",
+    "email": "vasco.s.rebolo@gmail.com",
+    "url": "https://github.com/vascocsilva"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vascocsilva/react-redux-snips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vascocsilva/react-redux-snips/issues"
+  },
+  "license": "MIT"
+}

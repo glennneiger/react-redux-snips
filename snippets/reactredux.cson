@@ -1,0 +1,60 @@
+'.source.js.jsx':
+  'React redux container with redux':
+    'prefix': 'rxcont',
+    'body': """
+      import React, {PropTypes, Component} from 'react';
+      import {connect} from 'react-redux';
+      import {bindActionCreators} from 'redux';
+
+      class $1 extends Component {
+        constructor(props) {
+          super(props);
+
+          this.state = {
+            $2
+          };
+        }
+
+        render() {
+          return (
+            $3
+          );
+        }
+      }
+
+      $1.propTypes = {
+        $4
+      };
+
+      function mapStateToProps($5, props) {
+        return {
+          $6
+        };
+      }
+
+      function mapDispatchToProps(dispatch) {
+        return {
+          actions: bindActionCreators($7, dispatch)
+        }
+      }
+
+      export default connect(mapStateToProps, mapDispatchToProps)($1);
+    """,
+  'Map state to props':
+    'prefix': 'rxmstp'
+    'body': """
+      function mapStateToProps($1, props) {
+        return {
+          $2
+        };
+      }'
+    """,
+  'Map dispatch to props':
+    'prefix': 'rxmdtp',
+    'body': """
+      function mapDispatchToProps(dispatch) {
+        return {
+          actions: bindActionCreators($1, dispatch)
+        }
+      }
+    """,
