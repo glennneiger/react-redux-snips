@@ -1,24 +1,27 @@
 # React and Redux Snippets (Atom)
----
+
 A set of snippets for a react/redux project.
 This is still a work in progress.
 
+---
+
+### Supported Extensions
+- js
+- jsx
+
+
 ### How to use
 
-`
-rxcont
-`
+``rxcont``
+- General template for a react container, with access to state and dispatching of actions.
 
-General template for a react container, with access to state and that dispatches actions.
+``rxdumb``
+- Dumb component
 
-`
-rxmstp
-`
+``rxmstp``
 
-Map state to props function.
+- Map state to props function.
 
-`
-rxmdtp
-`
+``rxmdtp``
 
-Map dispatch to props function.
+- Map dispatch to props function.

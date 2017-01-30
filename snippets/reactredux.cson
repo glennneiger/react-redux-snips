@@ -40,6 +40,25 @@
 
       export default connect(mapStateToProps, mapDispatchToProps)($1);
     """,
+  'Dumb Component':
+    'prefix': 'rxdumb',
+    'body': """
+      import React, {PropTypes} from 'react';
+
+      const $1 = ({$2}) => {
+        return (
+          <div>
+            $3
+          </div>
+        );
+      };
+
+      $1.propTypes = {
+
+      };
+
+      export default $1;
+    """
   'Map state to props':
     'prefix': 'rxmstp'
     'body': """
