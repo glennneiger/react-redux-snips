@@ -1,6 +1,6 @@
 # React and Redux Snippets (Atom)
 
-A set of snippets for a react/redux project.
+A set of snippets for react/redux apps.
 This is still a work in progress.
 
 ---
@@ -25,3 +25,12 @@ This is still a work in progress.
 ``rxmdtp``
 
 - Map dispatch to props function.
+
+``rxaction``
+- export action
+
+``rxconstr``
+- react constructor for react component
+
+``rximps``
+- common imports for react redux components

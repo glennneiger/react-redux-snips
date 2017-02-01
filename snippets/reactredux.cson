@@ -1,5 +1,5 @@
 '.source.js.jsx':
-  'React redux container with redux':
+  'React container with redux':
     'prefix': 'rxcont',
     'body': """
       import React, {PropTypes, Component} from 'react';
@@ -77,3 +77,32 @@
         }
       }
     """,
+  'Export action':
+    'prefix': 'rxaction'
+    'body': """
+      export const $1 = ($2) => {
+
+        return {
+          type:  types.$3,
+          payload: $4,
+        };
+      }
+    """,
+  'React constructor':
+    'prefix': 'rxconstr'
+    'body': """
+      constructor(props) {
+        super(props);
+
+        this.state = {
+          $1
+        };
+      }
+    """
+  'React Redux Common Imports':
+    'prefix': 'rximps'
+    'body': """
+      import React, {PropTypes, Component} from 'react';
+      import {connect} from 'react-redux';
+      import {bindActionCreators} from 'redux';
+    """
